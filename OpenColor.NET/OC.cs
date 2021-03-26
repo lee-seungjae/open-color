@@ -7,6 +7,9 @@ namespace OpenColor
     /// </summary>
     public static class OC
     {
+        public static Color White = Color.FromArgb(255, 255, 255);
+        public static Color Black = Color.FromArgb(0, 0, 0);
+
         /*  Gray
          *  式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式 */
         public static Color Gray0 = Color.FromArgb(248, 249, 250);
